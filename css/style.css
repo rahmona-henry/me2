@@ -1,0 +1,45 @@
+{
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+}
+
+.header {
+  background-image: url("/images/header-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.header-overlay {
+  background-color: rgba(31,31,31,0.75);
+}
+
+.header-text h1 {
+  color:#fff;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.header-text p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
